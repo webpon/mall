@@ -9,7 +9,7 @@ export default {
 }
 </script>
 <style scoped>
-     #tab-bar{
+    #tab-bar{
     display: flex;
     background-color: #dadada;
     position: fixed;
