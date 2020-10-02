@@ -1,7 +1,17 @@
-import {request} from "../../../../vue-cli3的使用/useaxios/src/network/request"
+import {request} from "network/request"
 
 export function getHomeMultidata(){
     return request({
         url:'/home/multidata'
+    })
+}
+
+export function getHomeGoods(type,page){
+    return request({
+        url:'home/data',
+        params:{
+            type,
+            page
+        }
     })
 }
